@@ -1,41 +1,73 @@
-# 🏗️ Campos y Propiedades
+# MusicApp - Plataforma de Streaming de Música
 
-Proyecto Java para practicar el uso de campos y propiedades en programación orientada a objetos desarrollado por **Isaac Esteban Haro Torres**.
-
----
-
-## 📝 Descripción
-
-Aplicación Java que demuestra el uso de campos (atributos) y propiedades en clases y objetos.
+Proyecto desarrollado por **Isaac Esteban Haro Torres**.
 
 ---
 
-## ✨ Características
+## Descripción
 
-- Declaración de campos
-- Implementación de propiedades
-- Encapsulamiento
+Plataforma de streaming de música simulada con gestión de artistas, álbumes, canciones, playlists y reproductor web interactivo.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Características
 
-- Java SE
-- Programación Orientada a Objetos
-
----
-
-## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
-
-**Ingeniero en Sistemas · Full Stack · Automatización · Data**
-
-- 📧 Email: zackharo1@gmail.com
-- 📱 WhatsApp: 098805517
-- 💻 GitHub: https://github.com/ieharo1
-- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
+- Catálogo de artistas, álbumes y canciones
+- Reproductor web con controles de reproducción
+- Sistema de playlists personales
+- Likes en canciones
+- Seguimiento de artistas
+- Contador de reproducciones
+- Dashboard con estadísticas de popularidad
+- Interfaz estilo Spotify moderna
 
 ---
 
-## 📄 Licencia
+## Stack Tecnológico
 
-© 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
+* PHP 8.2
+* Laravel 11
+* Livewire 3
+* Bootstrap 5
+* MySQL 8.0
+* Docker
+* Docker Compose
+
+---
+
+## Instalación desde cero
+
+1. Clonar el repositorio
+2. Ejecutar `docker compose up -d --build`
+3. Esperar a que los contenedores estén levantados
+4. Ejecutar migraciones: `docker compose exec app php artisan migrate`
+5. Ejecutar seeders: `docker compose exec app php artisan db:seed`
+6. Acceder al sistema en `http://localhost:8000`
+
+### Configuración de Base de Datos
+
+El sistema está configurado para usar MySQL con las siguientes credenciales:
+- Host: mysql
+- Database: music_app
+- User: laravel
+- Password: laravel
+
+---
+
+## Desarrollado por Isaac Esteban Haro Torres
+
+Ingeniero en Sistemas · Full Stack · Automatización · Data
+
+Email: [zackharo1@gmail.com](mailto:zackharo1@gmail.com)
+
+WhatsApp: 098805517
+
+GitHub: https://github.com/ieharo1
+
+Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
+
+---
+
+## Licencia
+
+© 2026 Isaac Esteban Haro Torres
